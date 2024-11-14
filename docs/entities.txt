@@ -1,0 +1,36 @@
+User:
+
+username        STRING      NN
+password        STRING      NN
+
+first_name          STRING      NN
+middle_name         STRING
+last_name           STRING
+tanggal_lahir       DATE 
+alamat              STRING
+jenis_kelamin       ENUM(male, female)
+
+skill               [Skill]
+pengalaman          [Pengalaman]
+project_portfolio   [Project]
+
+
+
+Skill
+
+title               STRING NN
+expire_date         DATE
+certificate_url     STRING
+
+
+
+Pengalaman
+
+company_name        STRING  NN
+position_name       STRING  NN
+job_description     STRING  NN
+start_month         DATE    NN
+end_month           DATE    (if null, until now)
+
+
+

@@ -1,0 +1,25 @@
+{
+  "name": "cv-profile",
+  "version": "1.0.0",
+  "description": "Profile resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "profile",
+    "personal",
+    "web",
+    "api"
+  ],
+  "type": "module",
+  "author": "Fakhri Rossi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1"
+  }
+}
